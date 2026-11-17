@@ -1,0 +1,9 @@
+{
+  "name": "testcicd",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Simple test website",
+  "scripts": {
+    "test": "node --test"
+  }
+}
