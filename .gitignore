@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Environment files and secrets (keep .env.example)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs
+npm-debug.log*
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

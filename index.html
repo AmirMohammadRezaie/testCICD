@@ -18,7 +18,20 @@
       <h2 id="about-heading">About This Project</h2>
       <p>This demo website is used to practice automated testing and continuous deployment.</p>
     </section>
+
+    <section id="chat" class="chat" aria-labelledby="chat-heading">
+      <h2 id="chat-heading">Chat with AI</h2>
+      <div id="chatLog" class="chat-log" role="log" aria-live="polite">
+        <p class="chat-msg chat-msg-assistant">Hi! Ask me anything.</p>
+      </div>
+      <form id="chatForm" class="chat-form">
+        <label for="chatInput" class="visually-hidden">Your message</label>
+        <input id="chatInput" type="text" maxlength="2000" placeholder="Type a message…" autocomplete="off" required>
+        <button id="chatSend" type="submit">Send</button>
+      </form>
+    </section>
   </main>
   <script src="script.js"></script>
+  <script src="chat.js"></script>
 </body>
 </html>
